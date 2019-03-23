@@ -1,0 +1,20 @@
+  <library path="src">
+  <class name="DriverStation" type="rqt_ds.main.DriverStationMain" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      Driver Station
+    </description>
+    <qtgui>
+      <!-- optional grouping...
+      <group>
+        <label>Group</label>
+      </group>
+      <group>
+        <label>Subgroup</label>
+      </group>
+      -->
+      <label>rqt driverstation plugin</label>
+      <icon type="theme"></icon>
+      <statustip>DriverStation</statustip>
+    </qtgui>
+  </class>
+</library>
